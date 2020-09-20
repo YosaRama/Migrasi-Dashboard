@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Ready Bootstrap Dashboard</title>
+    <title>E-Kinerja</title>
     <meta
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
       name="viewport"
@@ -18,8 +18,12 @@
   <body>
     <div class="wrapper">
       <div class="main-header">
+        <!-- LOGO HEADER -->
+
         <div class="logo-header">
-          <a href="index.html" class="logo"> LOGO </a>
+          <a href="index.html" class="logo">
+            <img src="../assets/img/navheader.png" alt="" />
+          </a>
           <button
             class="navbar-toggler sidenav-toggler ml-auto"
             type="button"
@@ -37,6 +41,8 @@
         </div>
         <nav class="navbar navbar-header navbar-expand-lg">
           <div class="container-fluid">
+            <!-- SEARCH FORM HEADER -->
+
             <form class="navbar-left navbar-form nav-search mr-md-3" action="">
               <div class="input-group">
                 <input
@@ -51,7 +57,12 @@
                 </div>
               </div>
             </form>
+
+            <!-- TOPBAR HEADER -->
+
             <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+              <!-- ENVELOPE HEADER -->
+
               <li class="nav-item dropdown hidden-caret">
                 <a
                   class="nav-link dropdown-toggle"
@@ -71,6 +82,9 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
+
+              <!-- NOTIFICATION HEADER -->
+
               <li class="nav-item dropdown hidden-caret">
                 <a
                   class="nav-link dropdown-toggle"
@@ -82,7 +96,7 @@
                   aria-expanded="false"
                 >
                   <i class="la la-bell"></i>
-                  <span class="notification">3</span>
+                  <span class="notification">2</span>
                 </a>
                 <ul
                   class="dropdown-menu notif-box"
@@ -144,6 +158,9 @@
                   </li>
                 </ul>
               </li>
+
+              <!-- PROFILE HEADER -->
+
               <li class="nav-item dropdown">
                 <a
                   class="dropdown-toggle profile-pic"
@@ -152,21 +169,24 @@
                   aria-expanded="false"
                 >
                   <img
-                    src="../assets/img/profile.jpg"
+                    src="../assets/img/user1.png"
                     alt="user-img"
                     width="36"
                     class="img-circle"
-                  /><span>Hizrian</span></a
+                  /><span>Admin</span></a
                 >
+
+                <!-- DROPDOWN USER -->
+
                 <ul class="dropdown-menu dropdown-user">
                   <li>
                     <div class="user-box">
                       <div class="u-img">
-                        <img src="../assets/img/profile.jpg" alt="user" />
+                        <img src="../assets/img/user1.png" alt="user" />
                       </div>
                       <div class="u-text">
-                        <h4>Hizrian</h4>
-                        <p class="text-muted">hello@themekita.com</p>
+                        <h4>Admin</h4>
+                        <p class="text-muted">Admindesa@gmail.com</p>
                         <a
                           href="profile.html"
                           class="btn btn-rounded btn-danger btn-sm"
@@ -179,7 +199,6 @@
                   <a class="dropdown-item" href="#"
                     ><i class="ti-user"></i> My Profile</a
                   >
-                  <a class="dropdown-item" href="#"> My Balance</a>
                   <a class="dropdown-item" href="#"
                     ><i class="ti-email"></i> Inbox</a
                   >
@@ -192,17 +211,19 @@
                     ><i class="fa fa-power-off"></i> Logout</a
                   >
                 </ul>
-                <!-- /.dropdown-user -->
               </li>
             </ul>
           </div>
         </nav>
       </div>
+
+      <!-- SIDEBAR -->
+
       <div class="sidebar">
         <div class="scrollbar-inner sidebar-wrapper">
           <div class="user">
             <div class="photo">
-              <img src="../assets/img/profile.jpg" />
+              <img src="../assets/img/user1.png" />
             </div>
             <div class="info">
               <a
@@ -212,7 +233,7 @@
                 aria-expanded="true"
               >
                 <span>
-                  Hizrian
+                  Admin
                   <span class="user-level">Administrator</span>
                   <span class="caret"></span>
                 </span>
@@ -244,13 +265,23 @@
               </div>
             </div>
           </div>
+
+          <!-- Main Menu Sidebar -->
+          <!-- Dashboard Sidebar -->
+
           <ul class="nav">
+            <p class="container-fluid" style="color: black" id="main-menu">
+              Main Menu
+            </p>
             <li class="nav-item active">
               <a href="index.html">
-                <i class="la la-dashboard"></i>
+                <i class="la la-desktop"></i>
                 <p>Dashboard</p>
               </a>
             </li>
+
+            <!-- E-Kinerja Sidebar -->
+
             <li class="nav-item">
               <a
                 class=""
@@ -258,7 +289,7 @@
                 href="#test-kinerja"
                 aria-expanded="true"
               >
-                <i class="la la-table"></i>
+                <i class="la la-calendar-o"></i>
                 <p>E-Kinerja</p>
                 <span class="caret"></span>
               </a>
@@ -280,10 +311,12 @@
               </div>
             </li>
 
+            <!-- Kewilayahan Sidebar -->
+
             <li class="nav-item">
               <div class="info">
                 <a data-toggle="collapse" href="#side-kewilayahan">
-                  <i class="la la-keyboard-o"></i>
+                  <i class="la la-map"></i>
                   <p>Kewilayahan</p>
                   <span class="caret"></span>
                 </a>
@@ -310,10 +343,12 @@
               </div>
             </li>
 
+            <!-- E-Planning Sidebar -->
+
             <li class="nav-item">
               <div class="info">
                 <a data-toggle="collapse" href="#side-planning">
-                  <i class="la la-keyboard-o"></i>
+                  <i class="la la-book"></i>
                   <p>E-Planning</p>
                   <span class="caret"></span>
                 </a>
@@ -339,11 +374,84 @@
                 </div>
               </div>
             </li>
+
+            <!-- Manajemen Arsip Sidebar -->
+
+            <li class="nav-item">
+              <div class="info">
+                <a data-toggle="collapse" href="#side-manajemen">
+                  <i class="la la-archive"></i>
+                  <p>Manajemen Arsip</p>
+                  <span class="caret"></span>
+                </a>
+                <div class="clearfix"></div>
+
+                <div
+                  class="collapse in"
+                  id="side-manajemen"
+                  aria-expanded="true"
+                >
+                  <ul class="nav">
+                    <li>
+                      <a href="">
+                        <span class="link-collapse">Data Arsip (soon)</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span class="link-collapse">Lihat Arsip (soon)</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <!-- Personalisasi Sidebar -->
+            <!-- Data Pengguna Sidebar-->
+
+            <p class="container-fluid" style="color: black" id="main-menu">
+              Personalisasi
+            </p>
+            <li class="nav-item">
+              <a href="data-pengguna.html">
+                <i class="la la-users"></i>
+                <p>Data Pengguna</p>
+              </a>
+            </li>
+
+            <!-- Keluar Sidebar -->
+            <li class="nav-item">
+              <a href="login.html">
+                <i class="la la-sign-out"></i>
+                <p>Keluar</p>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
+
+      <!-- CONTENT MAIN PANEL -->
       <div class="main-panel">
-        <div class="content">Dashboard</div>
+        <div class="content">
+          <div class="container-fluid">
+            <div class="text-center">
+              <p>Selamat Datang, Admin</p>
+              <p>Minggu,20 September 2020 | Pukul 16:45:50</p>
+            </div>
+            <div class="card">
+              <div class="card-body text-center">
+                <h3>E-Kinerja Desa Padangsambian Kaja ver1.2</h3>
+                <p>
+                  E-mail :desapdskaja@gmail.com || Kantor : Jl. Kebo Iwa No 35
+                  Denpasar Bali || Telp : (0361) 420940 || Sementara, Ini adalah
+                  halaman Dashboar
+                </p>
+                <p>rev. 8 September 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Modal -->

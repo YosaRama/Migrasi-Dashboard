@@ -2267,6 +2267,7 @@ body {
   border-bottom: 1px solid #eee;
 }
 .main-header .logo-header {
+  background-color: #242c6d;
   float: left;
   width: 260px;
   height: 55px;
@@ -6036,6 +6037,7 @@ body {
 }
 
 .navbar-header {
+  background-color: #283179;
   padding: 0px 15px;
 }
 .navbar-header .dropdown-toggle {
@@ -6916,6 +6918,10 @@ body {
   max-width: 200px;
   display: none;
   color: #ffffff;
+}
+
+.breadcrumb {
+  background-color: white;
 }
 
 /*     Responsive     */
